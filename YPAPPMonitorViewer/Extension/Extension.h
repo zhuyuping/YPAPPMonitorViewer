@@ -11,5 +11,6 @@
 
 #import "NSView+Extension.h"
 #import "NSTableRowView+Extension.h"
+#import "NSPopUpButton+Extension.h"
 
 #endif /* Extension_h */

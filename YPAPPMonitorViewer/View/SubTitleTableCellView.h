@@ -9,6 +9,10 @@
 #import <Cocoa/Cocoa.h>
 
 @interface SubTitleTableCellView : NSTableRowView
+
 @property (weak) IBOutlet NSTextField *titleLabel;
 @property (weak) IBOutlet NSTextField *subTitleLabel;
+
+- (void)setCkeck:(BOOL)check ;
+
 @end

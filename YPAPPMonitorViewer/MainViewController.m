@@ -19,6 +19,10 @@
 @property (weak) IBOutlet NSView *horizontalSeperatorView;
 @property (weak) IBOutlet NSView *topBarView;
 @property (weak) IBOutlet NSView *contentView;
+@property (weak) IBOutlet NSProgressIndicator *indicator;
+@property (weak) IBOutlet NSButton *fluencySectionButton;
+@property (weak) IBOutlet NSButton *crashSectionButton;
+@property (weak) IBOutlet NSButton *settingSectionButton;
 
 @end
 
@@ -32,7 +36,7 @@
 
 - (void)setRepresentedObject:(id)representedObject {
     [super setRepresentedObject:representedObject];
-
+    
 }
 
     
@@ -48,12 +52,29 @@
     [_horizontalSeperatorView setBackroundClolor:[NSColor dividerColor]];
     [_topBarView setBackroundClolor:[NSColor backgroundColor]];
     [_contentView setBackroundClolor:[NSColor backgroundColor]];
+    [self.crashSectionButton setState:NSControlStateValueOn];
+    [self.fluencySectionButton setState:NSControlStateValueOff];
+    self.indicator.hidden = YES;
 }
+
+#pragma mark - action
+
+- (IBAction)buttonOnclick:(NSButton *)sender {
+    if (sender == self.crashSectionButton) {
+        [sender setState:NSControlStateValueOff];
+        [self.fluencySectionButton setState:NSControlStateValueOn];
+    }
+    if (sender == self.fluencySectionButton) {
+        [sender setState:NSControlStateValueOff];
+        [self.crashSectionButton setState:NSControlStateValueOn];
+    }
+}
+
     
 #pragma mark - NSTableViewDataSource
     
 - (NSInteger)numberOfRowsInTableView:(NSTableView *)tableView {
-    return 30;
+    return 5;
 }
     
 - (nullable NSTableRowView *)tableView:(NSTableView *)tableView rowViewForRow:(NSInteger)row {

@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1C04397F20F21A6D00C31E1A /* NSTableRowView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C04397E20F21A6D00C31E1A /* NSTableRowView+Extension.m */; };
+		1C14D5C020F331E800A8C811 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C14D5BF20F331E800A8C811 /* SettingViewController.m */; };
+		1C14D5C320F347FC00A8C811 /* AddHostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C14D5C220F347FC00A8C811 /* AddHostViewController.m */; };
+		1C14D5C620F34CA600A8C811 /* NSString+app_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C14D5C520F34CA600A8C811 /* NSString+app_Extension.m */; };
+		1C14D5C920F3508100A8C811 /* HostManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C14D5C820F3508100A8C811 /* HostManager.m */; };
+		1C14D5CE20F4445B00A8C811 /* NSPopUpButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C14D5CD20F4445B00A8C811 /* NSPopUpButton+Extension.m */; };
 		1C98D1BF20EF5D50000B21A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C98D1BE20EF5D50000B21A2 /* AppDelegate.m */; };
 		1C98D1C220EF5D50000B21A2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C98D1C120EF5D50000B21A2 /* MainViewController.m */; };
 		1C98D1C420EF5D52000B21A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C98D1C320EF5D52000B21A2 /* Assets.xcassets */; };
@@ -22,6 +27,16 @@
 /* Begin PBXFileReference section */
 		1C04397D20F21A6D00C31E1A /* NSTableRowView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTableRowView+Extension.h"; sourceTree = "<group>"; };
 		1C04397E20F21A6D00C31E1A /* NSTableRowView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTableRowView+Extension.m"; sourceTree = "<group>"; };
+		1C14D5BE20F331E800A8C811 /* SettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		1C14D5BF20F331E800A8C811 /* SettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		1C14D5C120F347FC00A8C811 /* AddHostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddHostViewController.h; sourceTree = "<group>"; };
+		1C14D5C220F347FC00A8C811 /* AddHostViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddHostViewController.m; sourceTree = "<group>"; };
+		1C14D5C420F34CA600A8C811 /* NSString+app_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+app_Extension.h"; sourceTree = "<group>"; };
+		1C14D5C520F34CA600A8C811 /* NSString+app_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+app_Extension.m"; sourceTree = "<group>"; };
+		1C14D5C720F3508100A8C811 /* HostManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HostManager.h; sourceTree = "<group>"; };
+		1C14D5C820F3508100A8C811 /* HostManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HostManager.m; sourceTree = "<group>"; };
+		1C14D5CC20F4445B00A8C811 /* NSPopUpButton+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSPopUpButton+Extension.h"; sourceTree = "<group>"; };
+		1C14D5CD20F4445B00A8C811 /* NSPopUpButton+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSPopUpButton+Extension.m"; sourceTree = "<group>"; };
 		1C98D1BA20EF5D50000B21A2 /* YPAPPMonitorViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YPAPPMonitorViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C98D1BD20EF5D50000B21A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1C98D1BE20EF5D50000B21A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -80,6 +95,12 @@
 				1C98D1BE20EF5D50000B21A2 /* AppDelegate.m */,
 				1C98D1C020EF5D50000B21A2 /* MainViewController.h */,
 				1C98D1C120EF5D50000B21A2 /* MainViewController.m */,
+				1C14D5BE20F331E800A8C811 /* SettingViewController.h */,
+				1C14D5BF20F331E800A8C811 /* SettingViewController.m */,
+				1C14D5C120F347FC00A8C811 /* AddHostViewController.h */,
+				1C14D5C220F347FC00A8C811 /* AddHostViewController.m */,
+				1C14D5C720F3508100A8C811 /* HostManager.h */,
+				1C14D5C820F3508100A8C811 /* HostManager.m */,
 				1C98D1C320EF5D52000B21A2 /* Assets.xcassets */,
 				1C98D1C520EF5D52000B21A2 /* Main.storyboard */,
 				1C98D1C820EF5D52000B21A2 /* Info.plist */,
@@ -92,6 +113,8 @@
 		1C98D1D120F1E3B0000B21A2 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				1C14D5CC20F4445B00A8C811 /* NSPopUpButton+Extension.h */,
+				1C14D5CD20F4445B00A8C811 /* NSPopUpButton+Extension.m */,
 				1C04397D20F21A6D00C31E1A /* NSTableRowView+Extension.h */,
 				1C04397E20F21A6D00C31E1A /* NSTableRowView+Extension.m */,
 				1C98D1D220F1E3EB000B21A2 /* NSView+Extension.h */,
@@ -104,6 +127,8 @@
 		1C98D1D620F1E53C000B21A2 /* APPExtension */ = {
 			isa = PBXGroup;
 			children = (
+				1C14D5C420F34CA600A8C811 /* NSString+app_Extension.h */,
+				1C14D5C520F34CA600A8C811 /* NSString+app_Extension.m */,
 				1C98D1D720F1E55E000B21A2 /* NSColor+app_Extension.h */,
 				1C98D1D820F1E55E000B21A2 /* NSColor+app_Extension.m */,
 				1C98D1DA20F1E573000B21A2 /* APPExtension.h */,
@@ -192,12 +217,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C98D1D420F1E3EB000B21A2 /* NSView+Extension.m in Sources */,
+				1C14D5CE20F4445B00A8C811 /* NSPopUpButton+Extension.m in Sources */,
+				1C14D5C620F34CA600A8C811 /* NSString+app_Extension.m in Sources */,
+				1C14D5C920F3508100A8C811 /* HostManager.m in Sources */,
 				1C98D1DE20F21581000B21A2 /* SubTitleTableCellView.m in Sources */,
 				1C98D1C220EF5D50000B21A2 /* MainViewController.m in Sources */,
 				1C98D1CA20EF5D52000B21A2 /* main.m in Sources */,
 				1C04397F20F21A6D00C31E1A /* NSTableRowView+Extension.m in Sources */,
 				1C98D1BF20EF5D50000B21A2 /* AppDelegate.m in Sources */,
 				1C98D1D920F1E55E000B21A2 /* NSColor+app_Extension.m in Sources */,
+				1C14D5C320F347FC00A8C811 /* AddHostViewController.m in Sources */,
+				1C14D5C020F331E800A8C811 /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

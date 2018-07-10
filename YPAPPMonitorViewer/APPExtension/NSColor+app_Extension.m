@@ -18,23 +18,23 @@
 }
 
 + (instancetype)darkPrimaryColor {
-    return [NSColor clolorWithHex:0x98A6F5];
+    return [NSColor clolorWithHex:0x303F9F];
 }
 
 + (instancetype)primaryColor {
-   return [NSColor clolorWithHex:0xE8EAF6];
+   return [NSColor clolorWithHex:0x3F51B5];
 }
 
 + (instancetype)lightPrimaryColor {
-    return [NSColor clolorWithHex:0xF0F1F5];
+    return [NSColor clolorWithHex:0xC5CAE9];
 }
-    
-+ (instancetype)secondaryColor {
-    return [NSColor clolorWithHex:0x3F51B5];
+
++ (instancetype)text_IconsColor {
+    return [NSColor clolorWithHex:0xFFFFFF];
 }
     
 + (instancetype)accentColor {
-    return [NSColor clolorWithHex:0x8C9EFF];
+    return [NSColor clolorWithHex:0x536DFE];
 }
 
 + (instancetype)primaryTextColor {
@@ -46,7 +46,7 @@
 }
 
 + (instancetype)dividerColor {
-    return [NSColor clolorWithHex:0xE8EAF6];
+    return [NSColor clolorWithHex:0xB6B6B6];
 }
 
 + (instancetype)backgroundColor {

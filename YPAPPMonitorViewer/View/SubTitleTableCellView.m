@@ -9,6 +9,7 @@
 #import "SubTitleTableCellView.h"
 
 @interface SubTitleTableCellView()
+@property (weak) IBOutlet NSImageView *checkImageview;
 
 @end
 
@@ -18,7 +19,11 @@
     [super drawRect:dirtyRect];
     
 }
-    
+
+- (void)setCkeck:(BOOL)check {
+    [self.checkImageview setHidden:!check];
+}
+
 - (void)drawSelectionInRect:(NSRect)dirtyRect {
     NSRect selectionRect = NSInsetRect(self.bounds, 0, 0);
     [[NSColor colorWithCalibratedWhite:.72 alpha:1.0] setStroke];

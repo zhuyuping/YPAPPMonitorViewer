@@ -10,5 +10,6 @@
 #define APPExtension_h
 
 #import "NSColor+app_Extension.h"
+#import "NSString+app_Extension.h"
 
 #endif /* APPExtension_h */

@@ -15,7 +15,7 @@
 + (instancetype)darkPrimaryColor ;
 + (instancetype)primaryColor ;
 + (instancetype)lightPrimaryColor ;
-+ (instancetype)secondaryColor ;
++ (instancetype)text_IconsColor ;
 + (instancetype)accentColor ;
 + (instancetype)primaryTextColor ;
 + (instancetype)secondaryTextColor ;
