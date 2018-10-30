@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner">
+            <connections>
+                <outlet property="indicator" destination="40e-iA-lHS" id="ILg-R5-ZFX"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="0iC-rq-lXO" customClass="HeaderFooterTableCellView">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="35"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="YP9-bj-DY2">
+                    <rect key="frame" x="29" y="-12" width="242" height="56"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="dhK-fZ-AYu"/>
+                        <constraint firstAttribute="width" constant="230" id="hIH-Tv-Q2E"/>
+                    </constraints>
+                    <buttonCell key="cell" type="push" title="刷 新" bezelStyle="rounded" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="RYg-5H-p16">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="buttonOnclick:" target="0iC-rq-lXO" id="mnn-oI-JfI"/>
+                    </connections>
+                </button>
+                <progressIndicator wantsLayer="YES" horizontalHuggingPriority="750" verticalHuggingPriority="750" maxValue="100" bezeled="NO" indeterminate="YES" controlSize="small" style="spinning" translatesAutoresizingMaskIntoConstraints="NO" id="40e-iA-lHS">
+                    <rect key="frame" x="142" y="10" width="16" height="16"/>
+                </progressIndicator>
+            </subviews>
+            <constraints>
+                <constraint firstItem="YP9-bj-DY2" firstAttribute="centerX" secondItem="0iC-rq-lXO" secondAttribute="centerX" id="0WW-Rj-WQe"/>
+                <constraint firstItem="40e-iA-lHS" firstAttribute="centerY" secondItem="0iC-rq-lXO" secondAttribute="centerY" id="eRN-L9-dAK"/>
+                <constraint firstItem="40e-iA-lHS" firstAttribute="centerX" secondItem="0iC-rq-lXO" secondAttribute="centerX" id="hAk-yv-S65"/>
+                <constraint firstItem="YP9-bj-DY2" firstAttribute="centerY" secondItem="0iC-rq-lXO" secondAttribute="centerY" id="m0B-98-tWe"/>
+            </constraints>
+            <connections>
+                <outlet property="button" destination="YP9-bj-DY2" id="rUX-Wb-NdU"/>
+                <outlet property="indicator" destination="40e-iA-lHS" id="ohW-sN-ET7"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="168.5"/>
+        </customView>
+    </objects>
+</document>

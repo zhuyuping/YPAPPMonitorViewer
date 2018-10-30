@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe" customClass="InfoContentView">
+            <rect key="frame" x="0.0" y="0.0" width="1001" height="636"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <customView hidden="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bDQ-hN-FPR" customClass="ConsoleInfoContentViewWapper">
+                    <rect key="frame" x="0.0" y="0.0" width="1001" height="636"/>
+                </customView>
+                <customView hidden="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KCx-Bb-w8E" customClass="StackInfoContentViewWapper">
+                    <rect key="frame" x="0.0" y="0.0" width="1001" height="636"/>
+                </customView>
+                <customView hidden="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6bL-yn-bMl" customClass="DeviceInfoContentViewWapper">
+                    <rect key="frame" x="0.0" y="0.0" width="1001" height="636"/>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="KCx-Bb-w8E" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="2RL-r4-Ckz"/>
+                <constraint firstAttribute="trailing" secondItem="6bL-yn-bMl" secondAttribute="trailing" id="2UU-oH-hKE"/>
+                <constraint firstAttribute="bottom" secondItem="bDQ-hN-FPR" secondAttribute="bottom" id="4LZ-4p-kS3"/>
+                <constraint firstAttribute="bottom" secondItem="KCx-Bb-w8E" secondAttribute="bottom" id="Cdm-t2-lXc"/>
+                <constraint firstItem="6bL-yn-bMl" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="EW6-XL-Lfc"/>
+                <constraint firstAttribute="bottom" secondItem="6bL-yn-bMl" secondAttribute="bottom" id="GOA-Ew-xHp"/>
+                <constraint firstItem="6bL-yn-bMl" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="OD8-nr-xcB"/>
+                <constraint firstAttribute="trailing" secondItem="bDQ-hN-FPR" secondAttribute="trailing" id="T4B-ii-9R2"/>
+                <constraint firstItem="bDQ-hN-FPR" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="dWL-Dt-v3O"/>
+                <constraint firstItem="KCx-Bb-w8E" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="gdn-S5-wkm"/>
+                <constraint firstItem="bDQ-hN-FPR" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="nbm-3D-WMP"/>
+                <constraint firstAttribute="trailing" secondItem="KCx-Bb-w8E" secondAttribute="trailing" id="vNC-qf-5nU"/>
+            </constraints>
+            <connections>
+                <outlet property="consoleInfoViewWapper" destination="bDQ-hN-FPR" id="AgI-MQ-Oec"/>
+                <outlet property="deviceInfoViewWapper" destination="6bL-yn-bMl" id="fuJ-dv-yfh"/>
+                <outlet property="stackInfoViewWapper" destination="KCx-Bb-w8E" id="pKo-Yi-dIx"/>
+            </connections>
+            <point key="canvasLocation" x="400.5" y="351"/>
+        </customView>
+    </objects>
+</document>

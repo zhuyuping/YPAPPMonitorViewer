@@ -65,10 +65,18 @@
         [self performSegueWithIdentifier:ksegueIdentifier sender:nil];
     }
     if (sender.selectedSegment == 1) {
-        [self.segmentedControl setEnabled:NO forSegment:1];
-        [self.segmentedControl setEnabled:NO forSegment:2];
-        [kHOSTManager removeHost:kHOSTManager.allHosts[self.selectedIndex]];
-        [self.tableview reloadData];
+        NSAlert *alert = [NSAlert new];
+        [alert setMessageText:@"delete it ?"];
+        [alert addButtonWithTitle:@"OK"];
+        [alert addButtonWithTitle:@"cancle"];
+        [alert beginSheetModalForWindow:self.view.window completionHandler:^(NSModalResponse returnCode) {
+            if (returnCode == NSAlertFirstButtonReturn) {
+                [kHOSTManager removeHost:kHOSTManager.allHosts[self.selectedIndex]];
+            }
+            [self.segmentedControl setEnabled:NO forSegment:1];
+            [self.segmentedControl setEnabled:NO forSegment:2];
+            [self.tableview reloadData];
+        }];
     }
     if (sender.selectedSegment == 2) {
         [self.segmentedControl setEnabled:NO forSegment:1];

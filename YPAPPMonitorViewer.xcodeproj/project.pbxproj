@@ -13,6 +13,27 @@
 		1C14D5C620F34CA600A8C811 /* NSString+app_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C14D5C520F34CA600A8C811 /* NSString+app_Extension.m */; };
 		1C14D5C920F3508100A8C811 /* HostManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C14D5C820F3508100A8C811 /* HostManager.m */; };
 		1C14D5CE20F4445B00A8C811 /* NSPopUpButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C14D5CD20F4445B00A8C811 /* NSPopUpButton+Extension.m */; };
+		1C14D5D220F47F3100A8C811 /* YPHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C14D5D120F47F3000A8C811 /* YPHttpClient.m */; };
+		1C14D5D520F47F3E00A8C811 /* YPReporterNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C14D5D320F47F3E00A8C811 /* YPReporterNetworkOperation.m */; };
+		1C14D5D820F47F7500A8C811 /* NSDictionary+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C14D5D720F47F7500A8C811 /* NSDictionary+Extension.m */; };
+		1C14D5DF20F48E1B00A8C811 /* YPReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C14D5DE20F48E1B00A8C811 /* YPReport.m */; };
+		1C14D5E420F48F7A00A8C811 /* NSString+YP_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C14D5E220F48F7A00A8C811 /* NSString+YP_Extension.m */; };
+		1C14D5E520F48F7A00A8C811 /* NSDate+YP_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C14D5E320F48F7A00A8C811 /* NSDate+YP_Extension.m */; };
+		1C14D5ED20F4B4F400A8C811 /* YPAppCrashInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C14D5E920F4B4F400A8C811 /* YPAppCrashInfo.m */; };
+		1C14D5EE20F4B4F400A8C811 /* YPAppFluencyInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C14D5EC20F4B4F400A8C811 /* YPAppFluencyInfo.m */; };
+		1C14D5F120F4E67700A8C811 /* TopItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C14D5F020F4E67700A8C811 /* TopItemView.m */; };
+		1C14D5F320F4E68300A8C811 /* TopItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C14D5F220F4E68300A8C811 /* TopItemView.xib */; };
+		1C51B99F214114F0004A2A39 /* HeaderFooterTableCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C51B99E214114F0004A2A39 /* HeaderFooterTableCellView.xib */; };
+		1C51B9A22141151C004A2A39 /* HeaderFooterTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51B9A12141151C004A2A39 /* HeaderFooterTableCellView.m */; };
+		1C5388E420F7037D0004C5FE /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5388E320F7037D0004C5FE /* NSObject+Extension.m */; };
+		1C5388E720F72EEC0004C5FE /* DeviceInfoContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5388E620F72EEC0004C5FE /* DeviceInfoContentView.m */; };
+		1C5388E920F72F280004C5FE /* DeviceInfoContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C5388E820F72F280004C5FE /* DeviceInfoContentView.xib */; };
+		1C5388EC20F72F510004C5FE /* StackInfoContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5388EB20F72F510004C5FE /* StackInfoContentView.m */; };
+		1C5388EE20F72F5E0004C5FE /* StackInfoContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C5388ED20F72F5E0004C5FE /* StackInfoContentView.xib */; };
+		1C5388F120F72F7F0004C5FE /* ConsoleInfoContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5388F020F72F7F0004C5FE /* ConsoleInfoContentView.m */; };
+		1C5388F320F72F880004C5FE /* ConsoleInfoContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C5388F220F72F880004C5FE /* ConsoleInfoContentView.xib */; };
+		1C5388F620F787870004C5FE /* InfoContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5388F520F787870004C5FE /* InfoContentView.m */; };
+		1C5388F820F787960004C5FE /* InfoContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C5388F720F787960004C5FE /* InfoContentView.xib */; };
 		1C98D1BF20EF5D50000B21A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C98D1BE20EF5D50000B21A2 /* AppDelegate.m */; };
 		1C98D1C220EF5D50000B21A2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C98D1C120EF5D50000B21A2 /* MainViewController.m */; };
 		1C98D1C420EF5D52000B21A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C98D1C320EF5D52000B21A2 /* Assets.xcassets */; };
@@ -37,6 +58,42 @@
 		1C14D5C820F3508100A8C811 /* HostManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HostManager.m; sourceTree = "<group>"; };
 		1C14D5CC20F4445B00A8C811 /* NSPopUpButton+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSPopUpButton+Extension.h"; sourceTree = "<group>"; };
 		1C14D5CD20F4445B00A8C811 /* NSPopUpButton+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSPopUpButton+Extension.m"; sourceTree = "<group>"; };
+		1C14D5D020F47F3000A8C811 /* YPHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPHttpClient.h; sourceTree = "<group>"; };
+		1C14D5D120F47F3000A8C811 /* YPHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPHttpClient.m; sourceTree = "<group>"; };
+		1C14D5D320F47F3E00A8C811 /* YPReporterNetworkOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPReporterNetworkOperation.m; sourceTree = "<group>"; };
+		1C14D5D420F47F3E00A8C811 /* YPReporterNetworkOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPReporterNetworkOperation.h; sourceTree = "<group>"; };
+		1C14D5D620F47F7500A8C811 /* NSDictionary+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extension.h"; sourceTree = "<group>"; };
+		1C14D5D720F47F7500A8C811 /* NSDictionary+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extension.m"; sourceTree = "<group>"; };
+		1C14D5DD20F48E1B00A8C811 /* YPReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPReport.h; sourceTree = "<group>"; };
+		1C14D5DE20F48E1B00A8C811 /* YPReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPReport.m; sourceTree = "<group>"; };
+		1C14D5E020F48F7A00A8C811 /* NSDate+YP_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+YP_Extension.h"; sourceTree = "<group>"; };
+		1C14D5E120F48F7A00A8C811 /* NSString+YP_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YP_Extension.h"; sourceTree = "<group>"; };
+		1C14D5E220F48F7A00A8C811 /* NSString+YP_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YP_Extension.m"; sourceTree = "<group>"; };
+		1C14D5E320F48F7A00A8C811 /* NSDate+YP_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YP_Extension.m"; sourceTree = "<group>"; };
+		1C14D5E920F4B4F400A8C811 /* YPAppCrashInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPAppCrashInfo.m; sourceTree = "<group>"; };
+		1C14D5EA20F4B4F400A8C811 /* YPAppFluencyInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPAppFluencyInfo.h; sourceTree = "<group>"; };
+		1C14D5EB20F4B4F400A8C811 /* YPAppCrashInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPAppCrashInfo.h; sourceTree = "<group>"; };
+		1C14D5EC20F4B4F400A8C811 /* YPAppFluencyInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPAppFluencyInfo.m; sourceTree = "<group>"; };
+		1C14D5EF20F4E67700A8C811 /* TopItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopItemView.h; sourceTree = "<group>"; };
+		1C14D5F020F4E67700A8C811 /* TopItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopItemView.m; sourceTree = "<group>"; };
+		1C14D5F220F4E68300A8C811 /* TopItemView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopItemView.xib; sourceTree = "<group>"; };
+		1C51B99E214114F0004A2A39 /* HeaderFooterTableCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderFooterTableCellView.xib; sourceTree = "<group>"; };
+		1C51B9A02141151C004A2A39 /* HeaderFooterTableCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderFooterTableCellView.h; sourceTree = "<group>"; };
+		1C51B9A12141151C004A2A39 /* HeaderFooterTableCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeaderFooterTableCellView.m; sourceTree = "<group>"; };
+		1C5388E220F7037D0004C5FE /* NSObject+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
+		1C5388E320F7037D0004C5FE /* NSObject+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extension.m"; sourceTree = "<group>"; };
+		1C5388E520F72EEC0004C5FE /* DeviceInfoContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceInfoContentView.h; sourceTree = "<group>"; };
+		1C5388E620F72EEC0004C5FE /* DeviceInfoContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceInfoContentView.m; sourceTree = "<group>"; };
+		1C5388E820F72F280004C5FE /* DeviceInfoContentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeviceInfoContentView.xib; sourceTree = "<group>"; };
+		1C5388EA20F72F510004C5FE /* StackInfoContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackInfoContentView.h; sourceTree = "<group>"; };
+		1C5388EB20F72F510004C5FE /* StackInfoContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackInfoContentView.m; sourceTree = "<group>"; };
+		1C5388ED20F72F5E0004C5FE /* StackInfoContentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StackInfoContentView.xib; sourceTree = "<group>"; };
+		1C5388EF20F72F7F0004C5FE /* ConsoleInfoContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConsoleInfoContentView.h; sourceTree = "<group>"; };
+		1C5388F020F72F7F0004C5FE /* ConsoleInfoContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConsoleInfoContentView.m; sourceTree = "<group>"; };
+		1C5388F220F72F880004C5FE /* ConsoleInfoContentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConsoleInfoContentView.xib; sourceTree = "<group>"; };
+		1C5388F420F787870004C5FE /* InfoContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoContentView.h; sourceTree = "<group>"; };
+		1C5388F520F787870004C5FE /* InfoContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfoContentView.m; sourceTree = "<group>"; };
+		1C5388F720F787960004C5FE /* InfoContentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoContentView.xib; sourceTree = "<group>"; };
 		1C98D1BA20EF5D50000B21A2 /* YPAPPMonitorViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YPAPPMonitorViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C98D1BD20EF5D50000B21A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1C98D1BE20EF5D50000B21A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -69,6 +126,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C14D5CF20F47F0D00A8C811 /* HttpClient */ = {
+			isa = PBXGroup;
+			children = (
+				1C14D5D020F47F3000A8C811 /* YPHttpClient.h */,
+				1C14D5D120F47F3000A8C811 /* YPHttpClient.m */,
+				1C14D5D420F47F3E00A8C811 /* YPReporterNetworkOperation.h */,
+				1C14D5D320F47F3E00A8C811 /* YPReporterNetworkOperation.m */,
+			);
+			path = HttpClient;
+			sourceTree = "<group>";
+		};
+		1C14D5D920F48E0900A8C811 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1C14D5EB20F4B4F400A8C811 /* YPAppCrashInfo.h */,
+				1C14D5E920F4B4F400A8C811 /* YPAppCrashInfo.m */,
+				1C14D5EA20F4B4F400A8C811 /* YPAppFluencyInfo.h */,
+				1C14D5EC20F4B4F400A8C811 /* YPAppFluencyInfo.m */,
+				1C14D5DD20F48E1B00A8C811 /* YPReport.h */,
+				1C14D5DE20F48E1B00A8C811 /* YPReport.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		1C98D1B120EF5D50000B21A2 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +169,8 @@
 		1C98D1BC20EF5D50000B21A2 /* YPAPPMonitorViewer */ = {
 			isa = PBXGroup;
 			children = (
+				1C14D5D920F48E0900A8C811 /* Model */,
+				1C14D5CF20F47F0D00A8C811 /* HttpClient */,
 				1C98D1DB20F2148A000B21A2 /* View */,
 				1C98D1D620F1E53C000B21A2 /* APPExtension */,
 				1C98D1D120F1E3B0000B21A2 /* Extension */,
@@ -113,6 +196,10 @@
 		1C98D1D120F1E3B0000B21A2 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				1C14D5E020F48F7A00A8C811 /* NSDate+YP_Extension.h */,
+				1C14D5E320F48F7A00A8C811 /* NSDate+YP_Extension.m */,
+				1C14D5E120F48F7A00A8C811 /* NSString+YP_Extension.h */,
+				1C14D5E220F48F7A00A8C811 /* NSString+YP_Extension.m */,
 				1C14D5CC20F4445B00A8C811 /* NSPopUpButton+Extension.h */,
 				1C14D5CD20F4445B00A8C811 /* NSPopUpButton+Extension.m */,
 				1C04397D20F21A6D00C31E1A /* NSTableRowView+Extension.h */,
@@ -120,6 +207,10 @@
 				1C98D1D220F1E3EB000B21A2 /* NSView+Extension.h */,
 				1C98D1D320F1E3EB000B21A2 /* NSView+Extension.m */,
 				1C98D1D520F1E4B7000B21A2 /* Extension.h */,
+				1C14D5D620F47F7500A8C811 /* NSDictionary+Extension.h */,
+				1C14D5D720F47F7500A8C811 /* NSDictionary+Extension.m */,
+				1C5388E220F7037D0004C5FE /* NSObject+Extension.h */,
+				1C5388E320F7037D0004C5FE /* NSObject+Extension.m */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -142,6 +233,24 @@
 				1C98D1DC20F21581000B21A2 /* SubTitleTableCellView.h */,
 				1C98D1DD20F21581000B21A2 /* SubTitleTableCellView.m */,
 				1C98D1DF20F215A1000B21A2 /* SubTitleTableCellView.xib */,
+				1C14D5EF20F4E67700A8C811 /* TopItemView.h */,
+				1C14D5F020F4E67700A8C811 /* TopItemView.m */,
+				1C14D5F220F4E68300A8C811 /* TopItemView.xib */,
+				1C5388E520F72EEC0004C5FE /* DeviceInfoContentView.h */,
+				1C5388E620F72EEC0004C5FE /* DeviceInfoContentView.m */,
+				1C5388E820F72F280004C5FE /* DeviceInfoContentView.xib */,
+				1C5388EA20F72F510004C5FE /* StackInfoContentView.h */,
+				1C5388EB20F72F510004C5FE /* StackInfoContentView.m */,
+				1C5388ED20F72F5E0004C5FE /* StackInfoContentView.xib */,
+				1C5388EF20F72F7F0004C5FE /* ConsoleInfoContentView.h */,
+				1C5388F020F72F7F0004C5FE /* ConsoleInfoContentView.m */,
+				1C5388F220F72F880004C5FE /* ConsoleInfoContentView.xib */,
+				1C5388F420F787870004C5FE /* InfoContentView.h */,
+				1C5388F520F787870004C5FE /* InfoContentView.m */,
+				1C5388F720F787960004C5FE /* InfoContentView.xib */,
+				1C51B9A02141151C004A2A39 /* HeaderFooterTableCellView.h */,
+				1C51B9A12141151C004A2A39 /* HeaderFooterTableCellView.m */,
+				1C51B99E214114F0004A2A39 /* HeaderFooterTableCellView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -177,6 +286,11 @@
 				TargetAttributes = {
 					1C98D1B920EF5D50000B21A2 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -203,9 +317,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C5388F320F72F880004C5FE /* ConsoleInfoContentView.xib in Resources */,
+				1C5388E920F72F280004C5FE /* DeviceInfoContentView.xib in Resources */,
+				1C51B99F214114F0004A2A39 /* HeaderFooterTableCellView.xib in Resources */,
 				1C98D1E020F215A1000B21A2 /* SubTitleTableCellView.xib in Resources */,
+				1C14D5F320F4E68300A8C811 /* TopItemView.xib in Resources */,
 				1C98D1C420EF5D52000B21A2 /* Assets.xcassets in Resources */,
 				1C98D1C720EF5D52000B21A2 /* Main.storyboard in Resources */,
+				1C5388F820F787960004C5FE /* InfoContentView.xib in Resources */,
+				1C5388EE20F72F5E0004C5FE /* StackInfoContentView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,15 +337,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C98D1D420F1E3EB000B21A2 /* NSView+Extension.m in Sources */,
+				1C5388EC20F72F510004C5FE /* StackInfoContentView.m in Sources */,
 				1C14D5CE20F4445B00A8C811 /* NSPopUpButton+Extension.m in Sources */,
 				1C14D5C620F34CA600A8C811 /* NSString+app_Extension.m in Sources */,
 				1C14D5C920F3508100A8C811 /* HostManager.m in Sources */,
 				1C98D1DE20F21581000B21A2 /* SubTitleTableCellView.m in Sources */,
+				1C14D5DF20F48E1B00A8C811 /* YPReport.m in Sources */,
+				1C14D5D820F47F7500A8C811 /* NSDictionary+Extension.m in Sources */,
+				1C5388E420F7037D0004C5FE /* NSObject+Extension.m in Sources */,
+				1C14D5E520F48F7A00A8C811 /* NSDate+YP_Extension.m in Sources */,
+				1C14D5E420F48F7A00A8C811 /* NSString+YP_Extension.m in Sources */,
 				1C98D1C220EF5D50000B21A2 /* MainViewController.m in Sources */,
+				1C14D5D520F47F3E00A8C811 /* YPReporterNetworkOperation.m in Sources */,
+				1C5388F120F72F7F0004C5FE /* ConsoleInfoContentView.m in Sources */,
+				1C5388F620F787870004C5FE /* InfoContentView.m in Sources */,
+				1C14D5F120F4E67700A8C811 /* TopItemView.m in Sources */,
 				1C98D1CA20EF5D52000B21A2 /* main.m in Sources */,
 				1C04397F20F21A6D00C31E1A /* NSTableRowView+Extension.m in Sources */,
+				1C51B9A22141151C004A2A39 /* HeaderFooterTableCellView.m in Sources */,
+				1C5388E720F72EEC0004C5FE /* DeviceInfoContentView.m in Sources */,
+				1C14D5EE20F4B4F400A8C811 /* YPAppFluencyInfo.m in Sources */,
 				1C98D1BF20EF5D50000B21A2 /* AppDelegate.m in Sources */,
 				1C98D1D920F1E55E000B21A2 /* NSColor+app_Extension.m in Sources */,
+				1C14D5D220F47F3100A8C811 /* YPHttpClient.m in Sources */,
+				1C14D5ED20F4B4F400A8C811 /* YPAppCrashInfo.m in Sources */,
 				1C14D5C320F347FC00A8C811 /* AddHostViewController.m in Sources */,
 				1C14D5C020F331E800A8C811 /* SettingViewController.m in Sources */,
 			);
@@ -367,7 +502,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = ZYP.YPAPPMonitorViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -386,7 +521,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = ZYP.YPAPPMonitorViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

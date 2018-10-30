@@ -11,5 +11,6 @@
 @interface NSView (Extension)
 
 - (void)setBackroundClolor:(NSColor *)color ;
-    
++ (instancetype)instanceFormNib ;
+
 @end

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe" customClass="StackInfoContentView">
+            <rect key="frame" x="0.0" y="0.0" width="759" height="495"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <scrollView borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" scrollerKnobStyle="dark" translatesAutoresizingMaskIntoConstraints="NO" id="F9B-AP-HKJ">
+                    <rect key="frame" x="15" y="15" width="729" height="465"/>
+                    <clipView key="contentView" id="pd9-pT-cDb">
+                        <rect key="frame" x="0.0" y="0.0" width="729" height="465"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView editable="NO" importsGraphics="NO" verticallyResizable="YES" usesFontPanel="YES" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="4Ag-dW-J2T">
+                                <rect key="frame" x="0.0" y="0.0" width="729" height="465"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="minSize" width="729" height="465"/>
+                                <size key="maxSize" width="729" height="10000000"/>
+                                <color key="insertionPointColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </clipView>
+                    <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="Eyg-4i-9SK">
+                        <rect key="frame" x="-100" y="-100" width="87" height="18"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                    <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="QSd-BZ-Bno">
+                        <rect key="frame" x="713" y="0.0" width="16" height="465"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                </scrollView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="F9B-AP-HKJ" secondAttribute="trailing" constant="15" id="EYI-x7-vnk"/>
+                <constraint firstAttribute="bottom" secondItem="F9B-AP-HKJ" secondAttribute="bottom" constant="15" id="Ukv-PJ-1hW"/>
+                <constraint firstItem="F9B-AP-HKJ" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="15" id="oTB-jg-1fa"/>
+                <constraint firstItem="F9B-AP-HKJ" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="15" id="tO6-Y0-S1Q"/>
+            </constraints>
+            <connections>
+                <outlet property="textView" destination="4Ag-dW-J2T" id="I9D-Mg-Jgu"/>
+            </connections>
+            <point key="canvasLocation" x="279.5" y="279.5"/>
+        </customView>
+    </objects>
+</document>

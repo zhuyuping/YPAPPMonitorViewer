@@ -28,5 +28,6 @@
 - (void)insertHost:(Host *)host ;
 - (void)removeHost:(Host *)host ;
 - (void)setSelected:(Host *)selectedHost ;
+- (Host *)selectedHost ;
 
 @end

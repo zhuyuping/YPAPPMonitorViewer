@@ -87,6 +87,16 @@
     [self read];
 }
 
+- (Host *)selectedHost {
+    if (self.hosts.count == 0) return nil;
+    for (Host *host in self.hosts) {
+        if (host.selected) {
+            return host;
+        }
+    }
+    return self.hosts.firstObject;
+}
+
 #pragma mark - private
 
 - (void)save {

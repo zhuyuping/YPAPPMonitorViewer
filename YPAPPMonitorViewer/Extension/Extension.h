@@ -12,5 +12,7 @@
 #import "NSView+Extension.h"
 #import "NSTableRowView+Extension.h"
 #import "NSPopUpButton+Extension.h"
-
+#import "NSDictionary+Extension.h"
+#import "NSString+YP_Extension.h"
+#import "NSColor+app_Extension.h"
 #endif /* Extension_h */
